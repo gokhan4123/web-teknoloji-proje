@@ -1,0 +1,32 @@
+/*Animation */
+.words{
+    color:#ff4500;
+}
+
+.cursor{
+    display: inline-block;
+    width: 3px;
+    background-color:#ffffff;
+    margin:1px 2px;
+    -webkit-animation: blink 1s infinite;
+    animation: blink 1s infinite;
+}
+
+.typing{
+    -webkit-animation:none;
+    animation:none;
+}
+
+@-webkit-keyframes blink{
+    0%{ background-color: #ffffff;}
+    49%{ background-color: #ffffff;}
+    50%{ background-color: transparent;}
+    99%{ background-color: transparent;}
+    100%{ background-color: #ffffff;}
+}
+
+@keyframes blink{
+    0%{ background-color: #ffffff;}
+    50%{ background-color: transparent;}
+    100%{ background-color: #ffffff;}
+}

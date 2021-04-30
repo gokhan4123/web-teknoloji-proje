@@ -1,0 +1,170 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+html{
+
+    background-color: white;
+    font-family: sans-serif;
+    font-size: 18px;
+    scroll-behavior: smooth;
+    text-rendering: optimizeLegibility;
+
+    color: black;
+}
+
+
+/**********
+** Navbar
+**********/
+nav ul{
+    margin:0px 50px;
+    padding-top:20px;
+    display:flex;
+    justify-content: space-between;
+}
+
+nav ul li{
+    list-style: none;
+}
+
+nav ul li a{
+   text-decoration: none;
+   color:red;
+}
+
+/**********
+** header 
+**********/
+header{
+    background-image: url(./background-img/header.jpg);
+    background-position: 50% 0%;
+    height: 70vh;
+    width: auto;
+    position: relative;
+    overflow: hidden;
+}
+
+.anim-container{
+    position:absolute;
+    top:40%;
+    left:42%;
+    margin-left: -100px;
+    margin-top: -25px;
+    color:white;
+}
+
+.anim-container p{
+    font-weight: bold;
+    font-size: 25px;
+    letter-spacing: 2px;   
+}
+
+/**************
+** introduction 
+**************/
+
+.introduction{
+    margin:100px 5%;
+}
+
+.introduction img{
+    margin:10px 30%;
+    width:30%;
+    height: 100%;
+}
+
+/**************
+** Hobbies 
+**************/
+
+.hobbies{
+    padding:50px 50px;
+    padding-top:100px;
+    background-color:#bfbfbf;
+}
+
+.hobbies img{
+    width:80%;
+}
+
+/**************
+** Footer 
+**************/
+
+/**********************************************************
+----- Footer -----
+**********************************************************/
+
+.footer {
+    padding: 30px 80px;
+    background-color: #333;
+    font-size:80%;
+    color:#C5C6C7;
+}
+
+.footer-nav{
+    list-style: none;
+    float:left;    
+}
+
+.social-links {
+    list-style: none;
+    float:right;
+}
+
+.footer-nav li{
+    display:inline-block;
+    margin-right:20px;
+}
+
+.social-links li{
+    display:inline-block;
+    margin-right:20px;
+}
+
+.social-links li a:link,
+.social-links li a:visited,
+.footer-nav li a:visited,
+.footer-nav li a:link{
+    text-decoration: none;
+    color:#888;
+    border: 0;
+}
+
+.footer-nav li a:hover,
+.footer-nav li a:active{
+    color:#ddd;
+}
+
+.social-links li a:link,
+.social-links li a:visited{
+    font-size:130%;
+}
+
+.facebook,
+.insta, 
+.linkedin{
+    -webkit-transition: color 0.4s;
+    transition: color 0.4s;
+}  
+
+
+.facebook:hover{
+    color:#3b5998;
+}
+
+.insta:hover{
+    color:#4c5fd7;
+}
+
+.linkedin:hover{
+    color:#1da1f2;
+}
+
+footer p{
+    text-align:center;
+    margin-left:1%;
+}
