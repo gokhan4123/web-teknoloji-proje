@@ -145,3 +145,12 @@ footer p{
     text-align:center;
     margin-left:1%;
 }
+
+.btn-custom a{
+    color:white;
+    text-decoration: none;
+}
+
+.btn-custom a:hover{
+    color:yellow;
+}

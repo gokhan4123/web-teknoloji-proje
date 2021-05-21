@@ -15,11 +15,11 @@
     <?PHP 
         session_start();
       
-        $name = 'g161210381';
+        $name = 'g161210381@sakarya.edu.tr';
         $password = '1234';
 
         if($_POST['username'] === $name && $_POST['password'] === $password){
-            echo 'Merhaba ' , $name;
+            echo 'Merhaba g161210381';
             echo "<script type='text/javascript'>
                                 alert('Merhaba! Login Başarlı')
                   </script>";

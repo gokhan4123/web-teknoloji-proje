@@ -15,7 +15,7 @@
     <div class="col-md-7">
       <h1 class="display-4">İletişim</h1>
       <hr class="bg-success">
-      <p class="text-danger small pt-0 mt-0">* Hepsi alanlar gerekli</p>
+      <p class="text-danger small pt-0 mt-0">* Adı mail ve mesaj gerekli</p>
       
       <form method="post" action="./postContactUs.php">
         <div class="row form-group">
@@ -33,7 +33,7 @@
         <div class="row form-group">
           <label for="options" class="col-form-label col-md-4">Konu:</label>
           <div class="col-md-8">
-            <select class="form-select form-control" required>
+            <select class="form-select form-control" >
               <option selected>Size nasıl yardım edebilirim?</option>
               <option value="products">Kişisel Geliştirme</option>
               <option value="events">Gezme Plan</option>
@@ -44,20 +44,23 @@
         <div class="row form-group">
           <label for="message" class="col-form-label col-md-4">Mesaj</label>
           <div class="col-md-8">
-            <textarea name="message" id="message" class="form-control" rows="3" required></textarea>
+            <textarea name="message" id="message" class="form-control" rows="3"required></textarea>
           </div>
         </div>
         <div class="row form-group form-check">
           <label class="col-form-label form-check-label col-md-8">
-             <input class="form-check-input" type="checkbox" name="remember" required> Hizmet Koşullarını kabul ediyorum
+             <input class="form-check-input" type="checkbox" name="remember" > Hizmet Koşullarını kabul ediyorum
           </label>
         </div>
         <div class="d-flex justify-content-center pt-3 mt-3">
-          <button type="submit" class="btn btn-info btn-block btn-send">Gönder</button>
+          <button type="submit" id="submit-btn" class="btn btn-info btn-block btn-send">Gönder</button>
+          <button type="button" id="clear" class="btn btn-warning">Temizle</button>
         </div>
       </form>
     </div>
   </div>
 </div>
+
+<script src="../js/formCheck.js"></script>
 </body>
 </html>

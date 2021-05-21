@@ -15,7 +15,7 @@
 		<form action="postlogin.php" method="post" >
 			<h1>Login</h1>
 			<div>
-				<input type="text" placeholder="Kullanici" name="username" id="username" required/>
+				<input type="email" placeholder="Kullanici" name="username" id="username" required/>
 			</div>
 			<div>
 				<input type="password" placeholder="Sifre" name="password" id="password" required/>
