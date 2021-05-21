@@ -69,10 +69,14 @@ header{
     margin:100px 5%;
 }
 
+.introduction p{
+    text-align: justify;
+}
+
 .introduction img{
     margin:10px 30%;
-    width:30%;
-    height: 100%;
+    width:50%;
+    height: auto;
 }
 
 /**************
@@ -83,6 +87,10 @@ header{
     padding:50px 50px;
     padding-top:100px;
     background-color:#bfbfbf;
+}
+
+.hobbies p{
+    text-align: justify;
 }
 
 .hobbies img{
@@ -124,44 +132,14 @@ header{
     margin-right:20px;
 }
 
-.social-links li a:link,
-.social-links li a:visited,
-.footer-nav li a:visited,
-.footer-nav li a:link{
-    text-decoration: none;
-    color:#888;
-    border: 0;
-}
 
 .footer-nav li a:hover,
 .footer-nav li a:active{
     color:#ddd;
 }
 
-.social-links li a:link,
-.social-links li a:visited{
-    font-size:130%;
-}
-
-.facebook,
-.insta, 
-.linkedin{
-    -webkit-transition: color 0.4s;
-    transition: color 0.4s;
-}  
 
 
-.facebook:hover{
-    color:#3b5998;
-}
-
-.insta:hover{
-    color:#4c5fd7;
-}
-
-.linkedin:hover{
-    color:#1da1f2;
-}
 
 footer p{
     text-align:center;

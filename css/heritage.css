@@ -41,7 +41,7 @@ nav ul li a{
 ** header 
 **********/
 header{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./background-img/elazig-main.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./background-img/elazig-miras.jpg');
     background-position: 50% 0%;
     height: 70vh;
     width: auto;
@@ -56,7 +56,7 @@ header{
 .anim-container{
     position:absolute;
     top:40%;
-    left:45%;
+    left:50%;
     margin-left: -100px;
     margin-top: -25px;
     color:white;
@@ -69,7 +69,7 @@ header{
 }
 
 /******
-** City Intro
+** Miras Intro
 *******/
 
 .introduction{
@@ -77,31 +77,32 @@ header{
     text-align:justify;
 }
 
-.slider img{
-    height:400px;
+/**********
+** Miras Img 
+***********/
+
+.heritage-img{
+    padding-left: 20%;
 }
 
-.map{
-    margin:50px 50px;
-}
-
-#map-container{
-    position: absolute;
-    
-}
-
-.map-responsive{
-    overflow:hidden;
-    padding-bottom:50%;
-    position:relative;
-    height:0;
-}
-.map-responsive iframe{
-    left:0;
-    top:0;
-    height:60%;
+.heritage-img img{
     width:100%;
-    position:absolute;
+    height:50%;
+}
+
+/*************
+** Futbol takim
+**************/
+
+.takim{
+    padding:50px 50px;
+    margin-top:50px;
+    text-align: justify;
+}
+
+.takim img{
+    width:100%;
+    height:80%;
 }
 
 /**************
@@ -109,17 +110,15 @@ header{
 **************/
 
 .yt-vid{ 
-    padding: 0 50px;
-    margin-top:-175px;
+    padding: 0 65px;  
 }
 
 .yt-vid h2{
-    margin-left:-25px;
     padding-bottom: 10px;
 }
 
 .vid
 {
-    margin-left:27%;
+    padding-left:27%;
     margin-top:25px;
 }

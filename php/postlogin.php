@@ -15,7 +15,7 @@
     <?PHP 
         session_start();
       
-        $name = 'b11111111';
+        $name = 'g161210381';
         $password = '1234';
 
         if($_POST['username'] === $name && $_POST['password'] === $password){
@@ -25,7 +25,7 @@
                   </script>";
         }
         else {
-            $_SESSION["message"] = "Sizin kullanıcı adı b11111111 mıydı?";
+            $_SESSION["message"] = "Sizin kullanıcı adı g161210381 mıydı?";
 
             header("location: ./login.php");
         }
