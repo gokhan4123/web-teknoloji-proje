@@ -122,3 +122,21 @@ header{
     padding-left:27%;
     margin-top:25px;
 }
+
+.baraj{
+    padding:50px 50px;
+}
+
+#baraj-cover img{
+    margin-left:-1%;
+    width:101%;
+    height:500px;
+}
+
+.harput{
+    padding:50px 50px;
+}
+
+.harput img{
+    width:80%;
+}

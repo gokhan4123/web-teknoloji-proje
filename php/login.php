@@ -1,3 +1,7 @@
+<?php 
+   session_start();
+?>
+
 <!DOCTYPE html>
 <!--[if lt IE 7 ]> <html lang="en" class="ie6 ielt8"> <![endif]-->
 <!--[if IE 7 ]>    <html lang="en" class="ie7 ielt8"> <![endif]-->
@@ -31,7 +35,7 @@
 </html>
 
 <?PHP
-    session_start();
+ 
 
     if (isset($_SESSION["message"])) {        
         echo "<script>alert('".$_SESSION["message"]."')</script>";

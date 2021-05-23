@@ -1,3 +1,7 @@
+<?php
+    session_start();
+?>
+
 <html>
   <head>
     <title> Welcome!</title>  
@@ -13,10 +17,10 @@
        left:35%;  
    ">
     <?PHP 
-        session_start();
+        
       
         $name = 'g161210381@sakarya.edu.tr';
-        $password = '1234';
+        $password = 'g161210381';
 
         if($_POST['username'] === $name && $_POST['password'] === $password){
             echo 'Merhaba g161210381';

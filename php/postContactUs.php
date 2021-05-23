@@ -1,3 +1,7 @@
+<?php
+    session_start();
+?>
+
 <html>
   <head>
     <title> Bilgiler!</title>  
@@ -26,7 +30,6 @@
     <div class="row">   
 
       <?PHP 
-          session_start();
           echo '<h2>Adı</h2> ' , $_POST['name'];        
           echo '<h2>Mail</h2> ' , $_POST['email'];        
           echo '<h2>Mesaj</h2> ' , $_POST['message'];
